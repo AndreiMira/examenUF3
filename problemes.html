@@ -6,26 +6,31 @@
     <title>El problema dels tres cossos i universos paral·lels</title>
     <style>
         body {
-            background-color: darkgrey;
-            color: lightcyan;
+            background-color: #fafafa; /* Color de fondo más claro */
+            color: #444; /* Color de texto más oscuro */
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            line-height: 1.6;
         }
         header {
-            background-color: black;
-            color: white;
+            background-color: #333;
+            color: #ffcc00; /* Amarillo llamativo */
             padding: 10px;
             text-align: center;
         }
         main {
             padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
         }
         img {
             max-width: 100%;
             height: auto;
             display: block;
             margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         table {
             width: 100%;
@@ -33,13 +38,40 @@
             margin-bottom: 20px;
         }
         th, td {
-            padding: 8px;
-            border-bottom: 1px solid lightcyan;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
             text-align: left;
         }
         th {
-            background-color: black;
-            color: lightcyan;
+            background-color: #b45616; /* Naranja llamativo */
+            color: white;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff6600; /* Naranja llamativo */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        footer button:hover {
+            background-color: #af6736; /* Naranja más claro al pasar el ratón */
         }
     </style>
 </head>
